@@ -16,24 +16,26 @@ A Python quiz generator that reads multiple-choice questions from text files, as
 
 Use exactly this format for every question:
 
+```
 QUESTION: [question text]
 A: [choice A]
 B: [choice B]
 C: [choice C]
 D: [choice D]
 ANSWER: [single letter only]
+```
 
 Leave one blank line between questions.
 
 ## Example
-
+```
 QUESTION: Which Windows command displays IP configuration information?
 A: ping
 B: ipconfig
 C: tracert
 D: netstat
 ANSWER: B
-
+```
 ## How to Run
 
 1. Put your question files in the same folder as the Python script
