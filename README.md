@@ -42,5 +42,5 @@ ANSWER: B
 4. Run:
 
 ```bash
-python quiz_generator.py
+python Exam_generator.py
 
